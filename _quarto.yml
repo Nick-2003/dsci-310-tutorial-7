@@ -1,0 +1,14 @@
+# Set project type
+project:
+  type: manuscript
+  output-dir: docs # Output directory to generate
+
+manuscript:
+  article: index.qmd # Main article file
+
+# Set HTML formats
+format:
+  html:
+    comments:
+      hypothesis: true # Enables comments through hypothesis
+  docx: default # Output with DOCX as default
